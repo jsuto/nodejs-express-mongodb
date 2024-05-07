@@ -1,0 +1,9 @@
+## Setup
+
+Export the database user, password and uri, eg.
+
+```
+export DB_USER=....
+export DB_PASSWORD=...
+export DB_URI=....
+```
