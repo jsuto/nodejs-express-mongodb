@@ -1,11 +1,11 @@
 module.exports = app => {
-  const persons = require("../controllers/person.js");
+  const persons = require("../controllers/person.js")
 
-  var router = require("express").Router();
+  var router = require("express").Router()
 
-  router.get("/", persons.findAll);
+  router.get("/", persons.findAll)
 
-  router.get("/:id", persons.findOne);
+  router.get("/:id", persons.findOne)
 
-  app.use("/api/persons", router);
-};
+  app.use("/api/persons", router)
+}
