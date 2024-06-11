@@ -1,0 +1,8 @@
+services:
+  app:
+    image: aaa:latest
+    container_name: app
+    environment:
+      MONGODB_URI: ${MONGODB_URI:-mongodb+srv://root:admin123@mongo/test}
+    ports:
+      - "8080:8080"
